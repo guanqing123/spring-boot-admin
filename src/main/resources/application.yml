@@ -1,0 +1,9 @@
+server:
+  port: 8020
+spring:
+  application:
+    name: spring-boot-amdin
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 172.30.8.74:8848
